@@ -1,0 +1,10 @@
+services:
+  wazuh.manager:
+    image: wazuh/wazuh-manager:4.11.2
+    container_name: wazuh.manager
+  wazuh.indexer:
+    image: wazuh/wazuh-indexer:4.11.2
+    container_name: wazuh.indexer
+  wazuh.dashboard:
+    image: wazuh/wazuh-dashboard:4.11.2
+    container_name: wazuh.dashboard
